@@ -45,3 +45,12 @@ body {
 .dark ::-webkit-scrollbar-thumb {
   background: #4b5563;
 }
+
+/* Hide scrollbar but keep scrolling functional */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

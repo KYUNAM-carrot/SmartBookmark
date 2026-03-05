@@ -16,6 +16,10 @@ export default defineConfig({
       input: {
         sidepanel: resolve(__dirname, 'src/sidepanel/sidepanel.html'),
         options: resolve(__dirname, 'src/options/options.html'),
+        'page-highlighter': resolve(
+          __dirname,
+          'src/content-scripts/page-highlighter.ts'
+        ),
       },
     },
   },
